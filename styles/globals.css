@@ -6,6 +6,10 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+main {
+  max-width: 100%;
+}
+
 section#aboutMe {
   display: flex;
   flex-wrap: wrap;
@@ -31,3 +35,4 @@ a {
 * {
   box-sizing: border-box;
 }
+
