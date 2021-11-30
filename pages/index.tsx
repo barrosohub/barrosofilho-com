@@ -21,7 +21,7 @@ const Home: NextPage = () => {
         
         <section id="aboutMe">
           <p className={styles.subtitle}>(Front-end Engineer)</p>
-          <p>Javascript | PHP | Laravel | ReactJS | React Native | NextJS | NestJS | AdonisJS | PostgreSQL/MySQL | Jest | DevOps | UI/UX | Amazon AWS</p>         
+          <p>Javascript | ReactJS | React Native | NextJS | NestJS | AdonisJS | GraphQL | PostgreSQL/MySQL | Jest | DevOps | UI/UX | Amazon AWS</p>         
         </section>
         <span className="followMeText"><em>Talk to me or follow me on the networks:</em></span>
         <SocialLinks />
