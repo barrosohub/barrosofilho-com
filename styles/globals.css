@@ -6,6 +6,23 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+section#aboutMe {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  max-width: 90%;
+  text-align: center;
+}
+
+span.followMeText {
+  font-size: 0.9em;
+  margin-top: 1%;
+}
+
+.socialLinks{
+  margin-top: 1%;
+}
+
 a {
   color: inherit;
   text-decoration: none;

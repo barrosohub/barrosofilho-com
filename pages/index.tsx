@@ -1,13 +1,16 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import SocialLinks from './components/Generic/SocialLinks'
+import Footer from './components/Footer'
+
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Barroso Filho - Page Under Construction</title>
-        <meta name="description" content="Barroso Filho - Website" />
+        <title>Barroso Filho (Front-end Engineer)</title>
+        <meta name="description" content="Barroso Filho (Front-end Engineer)" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -15,20 +18,17 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
             Barroso Filho
         </h1>
-        <span>(page under construction...)</span>    
+        
+        <section id="aboutMe">
+          <p className={styles.subtitle}>(Front-end Engineer)</p>
+          <p>Javascript | PHP | Laravel | ReactJS | React Native | NextJS | NestJS | AdonisJS | PostgreSQL/MySQL | Jest | DevOps | UI/UX | Amazon AWS</p>         
+        </section>
+        <span className="followMeText"><em>Talk to me or follow me on the networks:</em></span>
+        <SocialLinks />
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://www.linkedin.com/in/barroso-filho-13bb94ab/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          https://www.linkedin.com/in/barroso-filho-13bb94ab/         
-        </a>       
-      </footer>
-
-      <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "782fb46e7a044312a983f7262117a47f"}'></script>
+      <Footer />
+     
     </div>
  
   )
