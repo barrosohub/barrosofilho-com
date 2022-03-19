@@ -8,6 +8,13 @@
   height: 100vh;
 }
 
+.profileImage {
+    border-radius: 50%;
+    margin: 1% auto;
+    max-width: 90%;
+    width: 200px;
+}
+
 .subtitle {
   font-size: 1.5rem;
   text-align: center;

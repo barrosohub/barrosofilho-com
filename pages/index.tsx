@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import SocialLinks from './components/Generic/SocialLinks'
+import ProfileImage from './components/ProfileImage'
 import Footer from './components/Footer'
 
 import styles from '../styles/Home.module.css'
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
       </Head>
  
       <main className={styles.main}>
+        <ProfileImage image={'/assets/images/profile.jpg'} alt="Profile Image" className={styles.profileImage}/>
         <h1 className={styles.title}>
             Barroso Filho
         </h1>
